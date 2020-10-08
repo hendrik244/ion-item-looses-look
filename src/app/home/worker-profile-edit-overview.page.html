@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title mode="ios"> title </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item color="dark" lines="none">
+    <ion-label><b>Profil-Infos bearbeiten</b> </ion-label>
+  </ion-item>
+  <ion-grid class="ion-no-padding">
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-item
+            class="mt-1"
+            detail
+            [routerLink]="['./', 'worker-profile-edit-resume']"
+          >
+            <ion-label class="ion-margin">Anstellungen</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
